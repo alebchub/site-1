@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", serif;
+  color: #f2f2f2;
+  background: #080208 url("img/hero-bg.jpg") no-repeat top center;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* background-color: rgb(242, 213, 213, .1); */
+}
+
+.page-header .container {
+  text-align: center;
+}
+
+.page-header {
+  margin: 50px 0 200px;
+}
+
+.page-header a {
+  color: #fea18d;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.contact-email {
+  background: url("img/icon-email.svg");
+  padding-left: 30px;
+  margin-right: 50px;
+}
+
+.contact-phone {
+  background: url("img/icon-phone.svg");
+  padding-left: 25px;
+}
+
+.page-intro .container {
+  text-align: center;
+}
+
+.page-intro {
+  margin: 0 0 400px;
+  font-size: 30px;
+}
+
+.page-intro h1 {
+  font-size: 80px;
+}
+
+.page-about {
+  margin: 0 0 100px;
+  font-size: 22px;
+  line-height: 44px;
+}
+
+.page-about h2 {
+  font-size: 40px;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list dt {
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 32px;
+}
+
+.skill-html {
+  background-image: url(img/icon-html.svg);
+  
+}
+
+.skill-css {
+  background-image: url(img/icon-css.svg);
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #080208;
+  border: 1px solid #712073;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #fea18d;
+}
